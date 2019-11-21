@@ -1,0 +1,43 @@
+body {
+    background-color: #300040;
+    color: white;
+    font-family: "Cascadia Code", sans-serif;
+    font-size: 22px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 900px;
+    margin: 10% auto;
+}
+
+/* THE GREAT CLEARFIX :D ! */
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix { display: inline-block; }
+/* Hides from IE-mac \*/
+*html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+/* @end */
