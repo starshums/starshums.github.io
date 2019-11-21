@@ -12,8 +12,8 @@ a {
 
 a:hover {
     color: white;
-    text-decoration: none;
-    font-size: 18px;
+    text-decoration: underline;
+    font-size: 24px;
 }
 
 .wrapper {
@@ -24,6 +24,10 @@ a:hover {
 .container {
     width: 900px;
     margin: 10% auto;
+    padding: 20px 30px;
+    background-color: #200040;
+    /* border: 6px white solid; */
+    box-shadow: 10px 10px 0px -3px rgba(255,255,255,1);
 }
 
 /* THE GREAT CLEARFIX :D ! */
