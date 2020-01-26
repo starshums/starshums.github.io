@@ -9,10 +9,18 @@ body {
 .wrapper {
   width: 95%;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 1%;
   height: 860px;
   width: 90%;
   position: relative;
+}
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  font-weight: bold;
+  color: white;
+  margin-top: 0px;
 }
 
 .top,
@@ -23,12 +31,15 @@ body {
   padding: 10px;
 }
 .top {
-  background-color: #200040;
+  font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   top: 0;
   height: 50%;
   width: 100%;
   border-bottom: none;
+  background-image: url("../images/moorish-star.png");
+  background-position: right 0;
+  background-repeat: no-repeat;
 }
 .top p {
   font-size: 70px;
@@ -46,7 +57,6 @@ body {
   height: 50%;
   width: 100%;
   border-top: none;
-  box-shadow: 0px 0px 5px #6e329b;
   font-size: 20px;
 }
 
@@ -60,7 +70,16 @@ body {
   font-size: 20px;
 }
 
-.bottom .command {
+#menulink {
+  color: white;
+}
+
+.command,
+.command2 {
+  font-family: monospace, sans-serif !important;
+}
+
+.bottom .command, .command2, .command3, .command4 {
   white-space: nowrap;
   overflow: hidden;
   animation: animated-text 4s linear 1s 1 normal both,
@@ -68,12 +87,22 @@ body {
 }
 
 .bottom .command2 {
-    white-space: nowrap;
-    overflow: hidden;
-    animation: animated-text 4s linear 1s 1 normal both,
-      animated-cursor 600ms linear infinite;
-    animation-delay: 2s;
-  }
+  animation-delay: 2s;
+}
+.bottom .command3 {
+  animation-delay: 3s;
+}
+.bottom .command4 {
+  animation-delay: 4s;
+}
+
+.commndMenu a, .n-link {
+  color: orange;
+  text-decoration: none;
+}
+.commndMenu a:hover, .n-link:hover {
+  color: orangered;
+}
 
 /* text animation */
 @keyframes animated-text {
