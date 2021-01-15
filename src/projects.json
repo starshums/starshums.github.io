@@ -1,0 +1,151 @@
+[
+  {
+    "type": "project",
+    "title": "Lorem Landing Page",
+    "description": "A simple landing page theme. </br></br> Illustrations from unDraw",
+    "btns": [
+      {
+        "id": "demo",
+        "text": "Live Demo",
+        "url": "https://starshums.github.io/lorem-landing-page-template/"
+      },
+      {
+        "id": "code",
+        "text": "Source Code",
+        "url": "https://github.com/starshums/lorem-landing-page-template"
+      }
+    ],
+    "techs": ["HTML5", "CSS3", "Responsive Design"]
+  },
+  {
+    "type": "project",
+    "title": "Project Mehrass (MERN APP)",
+    "description": "This app displays a list of words from the Moroccan dialect and their meaning, it's a dictionary like website. With the possibility for users to join add and update more words on the fly!",
+    "btns": [
+      {
+        "id": "demo",
+        "text": "Live Demo",
+        "url": "https://project-mehrass.herokuapp.com/"
+      },
+      {
+        "id": "code",
+        "text": "Source Code",
+        "url": "https://github.com/starshums/p.mehrass"
+      }
+    ],
+    "techs": [
+      "Mongodb",
+      "Mongoose",
+      "Express",
+      "React",
+      "Redux",
+      "Nodejs",
+      "Docker",
+      "Docker Compose"
+    ]
+  },
+  {
+    "type": "project",
+    "title": "Pokémon App",
+    "description": "This is a react application that shows a list of Pokémons, made by consuming a GraphQL Pokémon API.",
+    "btns": [
+      {
+        "id": "demo",
+        "text": "Live Demo",
+        "url": "https://shums-react-graphql-pokemon.herokuapp.com/pokemons"
+      },
+      {
+        "id": "code",
+        "text": "Source Code",
+        "url": "https://github.com/starshums/react-graphql-pokemon-app"
+      }
+    ],
+    "techs": ["Tailwind CSS", "React", "GraphQL", "Apollo Client", "Docker"]
+  },
+  {
+    "type": "project",
+    "title": "Oracle JD Edwards Julian date converter for Laravel 5",
+    "description": "A very simple Laravel library that converts Oracle JD Edwards Julian date to the standard Gregorian date.",
+    "btns": [
+      {
+        "id": "code",
+        "text": "Source Code",
+        "url": "https://github.com/starshums/jdejulianconverter"
+      }
+    ],
+    "techs": ["PHP", "Laravel"]
+  },
+  {
+    "type": "game",
+    "title": "JoJo's Bizarre Secret Delivery",
+    "description": "This project was my first ever game jam, I took part in the Unity Create with Code Game Jam 2020, that happened on Friday, October 23rd~Sunday, October 25th 2020. The theme was \"Secrets\"!",
+    "btns": [
+      {
+        "id": "demo",
+        "text": "Play the Game",
+        "url": "https://starshums.itch.io/jojos-bizarre-secret-delivery"
+	  },
+	  {
+        "id": "code",
+        "text": "Source Code",
+        "url": "https://github.com/starshums/UnityGameJam2020"
+      }
+    ],
+    "techs": ["C#", "Unity", "Blender"]
+  },
+  {
+    "type": "game",
+    "title": "FEZBOT",
+    "description": "A 3D Platformer game I'm working on!",
+    "btns": [
+      {
+        "id": "demo",
+        "text": "Play the Game",
+        "url": "https://starshums.itch.io/fezbot"
+      }
+    ],
+    "techs": ["C#", "Unity", "Blender"]
+  },
+  {
+    "type": "game",
+    "title": "FEZBOT RUNNER",
+    "description": "An endless runner I'm working on! </br> Will be available on the play store very soon!",
+    "btns": [
+      {
+        "id": "android",
+        "html": "<a target='_blank' href='https://play.google.com/store/apps/details?id=com.starshums.fezbotrunner&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>"
+      }
+    ],
+    "techs": ["C#", "Unity", "Blender", "Android"]
+  },
+  {
+    "type": "game",
+    "title": "SPOOK' a BOO!",
+    "description": "This project served as a warm up project for the Unity Create with Code Game Jam 2020. </br></br> You play as a tiny ghost, and you help him collect fear from kids around the farm.",
+    "btns": [
+      {
+        "id": "demo",
+        "text": "Play the Game",
+        "url": "https://starshums.itch.io/spook-a-boo"
+      },
+	  {
+        "id": "code",
+        "text": "Source Code",
+        "url": "https://github.com/starshums/UNITY-GameJam-WarmUp"
+      }
+    ],
+    "techs": ["C#", "Unity", "Blender"]
+  },
+  {
+    "type": "game",
+    "title": "Moul Djellaba Runner!",
+    "description": "This was the first mobile game I published to the playstore. </br></br> It's a subway surfer clone.",
+    "btns": [
+      {
+        "id": "android",
+        "html": "<a target='_blank' href='https://play.google.com/store/apps/details?id=com.starshums.mooldjellabarunner&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>"
+      }
+    ],
+    "techs": ["C#", "Unity", "Blender", "Android"]
+  }
+]
