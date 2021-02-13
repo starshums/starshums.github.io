@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { Fragment } from "react";
 import { Link, useLocation } from "react-router-dom";
 
@@ -16,15 +17,26 @@ const Navigation = () => {
     }
   }
 
-  return (
+  const showHeader = () => {
+    // return location.pathname === "/" ? 
+    return <div class="top">
+      <p>Hello there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="60px" />,  I'm Shums!</p> 
+      <p class="secondary-info">
+        I'm a Software Developer, Indie Game Developer.</p> </div>
+      {/* </p> </div> : <p style={{color: "white"}}> { location.pathname } </p> ; */}
+  }
 
-    <div className="bottom">
-      <div className="projects-wrapper">
-        <ul className="home-menu">
-          { renderNavigation() }
-        </ul>
+  return (
+    <Fragment>
+      { showHeader() }
+      <div className="bottom">
+        <div className="projects-wrapper">
+          <ul className="home-menu">
+            { renderNavigation() }
+          </ul>
+        </div>
       </div>
-    </div>
+    </Fragment>
   );
 };
 
