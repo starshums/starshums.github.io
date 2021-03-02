@@ -15,7 +15,7 @@ function App() {
         <Navigation />
           <Route
             path='/projects'
-            render={(props) => <Projects {...props} sectionTitle={"3D Modelling & Animation"} icon={"cube"} type={"3D"} />}
+            render={(props) => <Projects {...props} sectionTitle={"3D Modeling & Animation"} icon={"cube"} type={"3D"} />}
           />
           <Route
             path='/projects'
