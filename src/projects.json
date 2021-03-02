@@ -1,6 +1,19 @@
 [
   {
     "type": "project",
+    "title": "Nodejs GraphQL API",
+    "description": "A Nodejs GraphQL API CRUD Application with JWT Authentication",
+    "btns": [
+      {
+        "id": "code",
+        "text": "Source Code",
+        "url": "https://github.com/starshums/crud-nodejs-graphql-api"
+      }
+    ],
+    "techs": ["Nodejs", "GraphQL", "Apollo Server", "JWT", "Mongodb", "Mongoose"]
+  },
+  {
+    "type": "project",
     "title": "Lorem Landing Page",
     "description": "A simple landing page theme. </br></br> Illustrations from unDraw",
     "btns": [
@@ -19,8 +32,8 @@
   },
   {
     "type": "project",
-    "title": "Project Mehrass (MERN APP)",
-    "description": "This app displays a list of words from the Moroccan dialect and their meaning, it's a dictionary like website. With the possibility for users to join add and update more words on the fly!",
+    "title": "MERN Stack Project",
+    "description": "MERN Stack Project, Backend (Nodejs REST API, MongoDB), Frontend (React, Redux)!",
     "btns": [
       {
         "id": "demo",
@@ -41,13 +54,14 @@
       "Redux",
       "Nodejs",
       "Docker",
-      "Docker Compose"
+      "Docker Compose",
+      "JWT"
     ]
   },
   {
     "type": "project",
     "title": "Pokémon App",
-    "description": "This is a react application that shows a list of Pokémons, made by consuming a GraphQL Pokémon API.",
+    "description": "React application that displays a list of Pokémons, made by consuming a GraphQL Pokémon API.",
     "btns": [
       {
         "id": "demo",
@@ -65,7 +79,7 @@
   {
     "type": "project",
     "title": "Oracle JD Edwards Julian date converter for Laravel 5",
-    "description": "A very simple Laravel library that converts Oracle JD Edwards Julian date to the standard Gregorian date.",
+    "description": "A simple Laravel library that converts Oracle JD Edwards Julian date to the standard Gregorian date.",
     "btns": [
       {
         "id": "code",
@@ -74,6 +88,42 @@
       }
     ],
     "techs": ["PHP", "Laravel"]
+  },
+  {
+    "type": "game",
+    "title": "ALIEN DOODS",
+    "description": "Using your trusty laser gun, defeat the hostile creatures of the planet, and find and collect three alien doods to power and strengthen the satellite's signal in hopes of requesting help to escape the planet. Brackeys Game Jam 2021.1 Game Jam Submission",
+    "btns": [
+      {
+        "id": "demo",
+        "text": "Play the Game",
+        "url": "https://starshums.itch.io/alien-doods"
+	  },
+	  {
+        "id": "code",
+        "text": "Source Code",
+        "url": "https://github.com/starshums/BrackeysGameJam2021"
+      }
+    ],
+    "techs": ["C#", "Unity", "Blender"]
+  },
+  {
+    "type": "game",
+    "title": "MISSING();",
+    "description": "Evil Skullatron 6000, kidnaps your pet, and steals and scatters your memory chips across the lands. Regain your memories, dodge enemies, rescue your pet, and destroy the evil Skullatron once and for all! This was the submission for the Global Game Jam Online 2021!",
+    "btns": [
+      {
+        "id": "demo",
+        "text": "Play the Game",
+        "url": "https://starshums.itch.io/missing"
+	  },
+	  {
+        "id": "code",
+        "text": "Source Code",
+        "url": "https://github.com/starshums/GlobalGameJamOnline2021"
+      }
+    ],
+    "techs": ["C#", "Unity", "Blender"]
   },
   {
     "type": "game",
@@ -147,5 +197,33 @@
       }
     ],
     "techs": ["C#", "Unity", "Blender", "Android"]
+  },
+  {
+    "type": "3D",
+    "title": "Low Poly Cute Cyborg",
+    "description": "<div class='sketchfab-embed-wrapper'><iframe title='Low poly Cute Cyborg' src='https://sketchfab.com/models/d2046c1fa5c141c287971d6de62dc796/embed'></iframe> <p style='font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;'><a href='https://sketchfab.com/3d-models/low-poly-cute-cyborg-d2046c1fa5c141c287971d6de62dc796' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Low poly Cute Cyborg</a>by <a href='https://sketchfab.com/starshums' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Shums</a>on <a href='https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Sketchfab</a></p></div>",
+    "btns": [],
+    "techs": ["Blender", "Textured", "Rigged", "Animated"]
+  },
+  {
+    "type": "3D",
+    "title": "One Eyed Alien Creature",
+    "description": "<div class='sketchfab-embed-wrapper'><iframe title='One Eyed Alien Creature' src='https://sketchfab.com/models/18d6a88081ab4a39855259ede82932ea/embed'></iframe> <p style='font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;'><a href='https://sketchfab.com/3d-models/one-eyed-alien-creature-18d6a88081ab4a39855259ede82932ea' target='_blank' style='font-weight: bold; color: #1CAAD9;'>One Eyed Alien Creature</a>by <a href='https://sketchfab.com/starshums' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Shums</a>on <a href='https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Sketchfab</a></p></div>",
+    "btns": [],
+    "techs": ["Blender", "Textured", "Rigged", "Animated"]
+  },
+  {
+    "type": "3D",
+    "title": "Low Poly Cartoony Car",
+    "description": "<div class='sketchfab-embed-wrapper'><iframe title='Low Poly Cartoony Car' src='https://sketchfab.com/models/5712e023c14e472f976a813b88c116b8/embed'></iframe> <p style='font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;'><a href='https://sketchfab.com/3d-models/low-poly-cartoony-car-5712e023c14e472f976a813b88c116b8' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Low Poly Cartoony Car</a>by <a href='https://sketchfab.com/starshums' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Shums</a>on <a href='https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Sketchfab</a></p></div>",
+    "btns": [],
+    "techs": ["Blender", "Textured"]
+  },
+  {
+    "type": "3D",
+    "title": "Low Poly Pumpkin",
+    "description": "<div class='sketchfab-embed-wrapper'><iframe title='Low Poly Pumpkin' src='https://sketchfab.com/models/d76c80a319f64b45b24c56954cdcc844/embed'></iframe> <p style='font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;'><a href='https://sketchfab.com/3d-models/pumpkin-d76c80a319f64b45b24c56954cdcc844' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Low Poly Pumpkin</a>by <a href='https://sketchfab.com/starshums' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Shums</a>on <a href='https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup' target='_blank' style='font-weight: bold; color: #1CAAD9;'>Sketchfab</a></p></div>",
+    "btns": [],
+    "techs": ["Blender", "Textured"]
   }
 ]

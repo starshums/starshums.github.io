@@ -15,7 +15,7 @@ function App() {
         <Navigation />
           <Route
             path='/projects'
-            render={(props) => <Projects {...props} sectionTitle={"Personal Projects"} icon={"file-alt"} type={"project"} />}
+            render={(props) => <Projects {...props} sectionTitle={"3D Modelling & Animation"} icon={"cube"} type={"3D"} />}
           />
           <Route
             path='/projects'
@@ -23,7 +23,7 @@ function App() {
           />
           <Route
             path='/projects'
-            render={(props) => <Projects {...props} sectionTitle={"3D Modelling & Animation"} icon={"cube"} type={""} />}
+            render={(props) => <Projects {...props} sectionTitle={"Personal Projects"} icon={"file-alt"} type={"project"} />}
           />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/about" component={About} />
