@@ -14,8 +14,8 @@ const Contact = () => {
             <p>
               {" "}
               @{" "}
-              <a class="n-link" href="mailto:chemsed.dinrachidi@gmail.com">
-                chemsed.dinrachidi@gmail.com
+              <a class="n-link" href="mailto:chemsed.dinerachidi@gmail.com">
+                chemsed.dinerachidi@gmail.com
               </a>{" "}
             </p>
           </div>
