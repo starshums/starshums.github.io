@@ -9,7 +9,7 @@ const Home = () => {
       exit={{ scaleX: 0 }}
     >
       <div className="bottom">
-        <i className="fas fa-home"> </i> home_page;
+        <i className="fas fa-home"> </i> Welcome to my cozy space on the internets!
       </div>
     </motion.div>
   );

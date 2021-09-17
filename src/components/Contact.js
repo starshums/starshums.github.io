@@ -12,11 +12,9 @@ const Contact = () => {
         <div className="bottom">
           <div class="command commndMenu">
             <p>
-              {" "}
-              @{" "}
               <a class="n-link" href="mailto:chemsed.dinerachidi@gmail.com">
-                chemsed.dinerachidi@gmail.com
-              </a>{" "}
+                >  chemsed.dinerachidi@gmail.com
+              </a>
             </p>
           </div>
         </div>

@@ -1,9 +1,16 @@
+@font-face {
+  font-family: 'Iosevka';
+  src: local('Iosevka'), url(./fonts/iosevka-regular.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
   background-color: #200040;
-  font-family: "Roboto Mono";
+  font-family: Iosevka, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .wrapper {
@@ -29,7 +36,6 @@ body {
   padding: 10px;
 }
 .top {
-  font-family: Arial, Helvetica, sans-serif;
   top: 0;
   border-bottom: none;
   background-image: url("moorish-star.png");
@@ -68,11 +74,6 @@ body {
 
 #menulink {
   color: white;
-}
-
-.command,
-.command2 {
-  font-family: monospace, sans-serif !important;
 }
 
 .bottom .command, .command2, .command3, .command4 {

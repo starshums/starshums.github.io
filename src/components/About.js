@@ -10,10 +10,8 @@ const About = () => {
     >
       <Fragment>
         <p className="bottom">
-          Software Developer and an Indie Game Developer, in love with React and
-          GraphQL technologies, currently developing a 3D platformer game called
-          FEZBOT made using Unity and Blender. To follow more on my game and
-          more, please visit my itch.io page :{" "}
+          Software Developer and an Indie Game Developer, in love with 3D, Unity, Laravel, React, and GraphQL technologies.
+          Probably working on a game right now. Follow my itch.io to get news on any upcoming games :
           <a
             className="n-link"
             target="_blank"
@@ -21,7 +19,7 @@ const About = () => {
           >
             starshums.itch.io
           </a>
-          also available on Game Jolt:{" "}
+          also available on Game Jolt:
           <a
             className="n-link"
             target="_blank"
@@ -29,7 +27,7 @@ const About = () => {
           >
             gamejolt.com/@starshums
           </a>
-          ~ Thank you! :) ~ 💻
+          ~ Thanks!
         </p>
       </Fragment>
     </motion.div>
