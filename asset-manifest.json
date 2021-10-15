@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e405f81a.chunk.css",
-    "main.js": "/static/js/main.28333278.chunk.js",
-    "main.js.map": "/static/js/main.28333278.chunk.js.map",
+    "main.css": "/static/css/main.777e4bf9.chunk.css",
+    "main.js": "/static/js/main.d4c7fbd1.chunk.js",
+    "main.js.map": "/static/js/main.d4c7fbd1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.affa243c.js",
     "runtime-main.js.map": "/static/js/runtime-main.affa243c.js.map",
-    "static/js/2.3714756b.chunk.js": "/static/js/2.3714756b.chunk.js",
-    "static/js/2.3714756b.chunk.js.map": "/static/js/2.3714756b.chunk.js.map",
+    "static/js/2.be9ac247.chunk.js": "/static/js/2.be9ac247.chunk.js",
+    "static/js/2.be9ac247.chunk.js.map": "/static/js/2.be9ac247.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e405f81a.chunk.css.map": "/static/css/main.e405f81a.chunk.css.map",
-    "static/js/2.3714756b.chunk.js.LICENSE.txt": "/static/js/2.3714756b.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/moorish-star.70d90db6.png",
-    "static/media/logo.2d27ead7.svg": "/static/media/logo.2d27ead7.svg"
+    "static/css/main.777e4bf9.chunk.css.map": "/static/css/main.777e4bf9.chunk.css.map",
+    "static/js/2.be9ac247.chunk.js.LICENSE.txt": "/static/js/2.be9ac247.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/moorish-star-sm-white.6d5bf2ac.png",
+    "static/media/video.5958b492.mp4": "/static/media/video.5958b492.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.affa243c.js",
-    "static/js/2.3714756b.chunk.js",
-    "static/css/main.e405f81a.chunk.css",
-    "static/js/main.28333278.chunk.js"
+    "static/js/2.be9ac247.chunk.js",
+    "static/css/main.777e4bf9.chunk.css",
+    "static/js/main.d4c7fbd1.chunk.js"
   ]
 }
