@@ -4,14 +4,19 @@
   "private": true,
   "homepage": "http://starshums.github.io/",
   "dependencies": {
+    "@react-three/drei": "^7.14.3",
+    "@react-three/fiber": "^7.0.15",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
     "@testing-library/user-event": "^12.2.0",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^3.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-hook-form": "^7.17.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.0",
+    "three": "^0.133.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -20,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "clean": "rm -rf node_modules/gh-pages/.cache"
   },
   "eslintConfig": {
     "extends": [

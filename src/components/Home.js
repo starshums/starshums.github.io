@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Fragment } from "react";
 
 const Home = () => {
   return (
@@ -9,7 +8,7 @@ const Home = () => {
       exit={{ scaleX: 0 }}
     >
       <div className="bottom">
-        <i className="fas fa-home"> </i> Welcome to my cozy space on the internets!
+        <i className="fas fa-home"> </i> Welcome to my cozy space on the internets! (●ᴗ●) (ᗒᗨᗕ)
       </div>
     </motion.div>
   );

@@ -10,7 +10,7 @@
         "url": "https://github.com/starshums/starshums.github.io"
       }
     ],
-    "techs": ["React", "GitHub Pages", "Framer Motion"]
+    "techs": ["React", "GitHub Pages", "Framer Motion", "Three.js", "React-three-fiber", "Emailjs", "React-hook-form", "GLTF"]
   },
   {
     "type": "project",
